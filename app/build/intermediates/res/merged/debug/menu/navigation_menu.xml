@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_contact"
+            android:icon="@drawable/contact"
+            android:title="Kontakty"
+            />
+        <item
+            android:id="@+id/menu_skills"
+            android:icon="@drawable/skills"
+            android:title="Umiejetnosci" />
+        <item
+            android:id="@+id/menu_expirience"
+            android:icon="@drawable/experience"
+            android:title="Doświadczenie" />
+        <item
+            android:id="@+id/menu_education"
+            android:icon="@drawable/umiejetnosci"
+            android:title="Edukacja"/>
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/projects"
+            android:title="Projekty"/>
+        <item
+            android:id="@+id/hobby"
+            android:icon="@drawable/hobby"
+            android:title="Hobby"/>
+
+
+        <item
+            android:id="@+id/menu_notes"
+            android:icon="@drawable/notes"
+            android:title="Notatki"/>
+
+
+    </group>
+
+
+</menu>
